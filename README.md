@@ -9,8 +9,8 @@ Supports user signup, login, JWT-based authentication, and protected routes.
 
 - **Runtime:** Bun
 - **Framework:** Express
-- **Database:** PostgreSQL (Neon)
-- **ORM:** Prisma (latest, adapter-based)
+- **Database:** PostgreSQL
+- **ORM:** Prisma
 - **Auth:** JWT
 - **Password Hashing:** bcrypt
 - **Validation:** Zod
@@ -26,5 +26,3 @@ Supports user signup, login, JWT-based authentication, and protected routes.
 - Clean router-based architecture
 
 ---
-
-## Project Structure
