@@ -1,15 +1,30 @@
-# auth-app
+# Auth App (Bun + Prisma + Postgres)
 
-To install dependencies:
+A simple authentication backend built with **Bun**, **Express**, **Prisma**, and **PostgreSQL**.  
+Supports user signup, login, JWT-based authentication, and protected routes.
 
-```bash
-bun install
-```
+---
 
-To run:
+## Tech Stack
 
-```bash
-bun run index.ts
-```
+- **Runtime:** Bun
+- **Framework:** Express
+- **Database:** PostgreSQL (Neon)
+- **ORM:** Prisma (latest, adapter-based)
+- **Auth:** JWT
+- **Password Hashing:** bcrypt
+- **Validation:** Zod
 
-This project was created using `bun init` in bun v1.3.5. [Bun](https://bun.com) is a fast all-in-one JavaScript runtime.
+---
+
+## Features
+
+- User signup with validation and hashed passwords
+- User login with JWT generation
+- JWT-protected routes
+- Prisma + Postgres integration
+- Clean router-based architecture
+
+---
+
+## Project Structure
